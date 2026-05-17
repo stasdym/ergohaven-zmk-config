@@ -14,6 +14,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <19>;
+            layers = <3>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
