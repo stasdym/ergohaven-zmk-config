@@ -18,7 +18,7 @@
         compatible = "zmk,combos";
 
         undo {
-            bindings = <&kp LC(Z)>;
+            bindings = <&kp LG(Z)>;
             key-positions = <19>;
             layers = <3>;
         };
